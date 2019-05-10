@@ -1,16 +1,22 @@
 {
-  "name": "generate-bt-screenshots",
+  "name": "fat-analyze-ad-branches",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "fat-analyze-ad-branches": "index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chrome-har": "^0.10.0",
     "minimist": "^1.2.0",
-    "puppeteer": "^1.14.0"
+    "nodegit": "^0.24.3",
+    "puppeteer": "^1.14.0",
+    "yargs": "^13.2.2"
   }
 }
