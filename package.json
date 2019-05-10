@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:w": "jest --watch"
   },
   "bin": {
     "fat-analyze-ad-branches": "index.js"
@@ -18,5 +19,8 @@
     "nodegit": "^0.24.3",
     "puppeteer": "^1.14.0",
     "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
