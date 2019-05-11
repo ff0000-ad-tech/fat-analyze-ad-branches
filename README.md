@@ -10,10 +10,10 @@ analyze-ad-branches ./cool-ad -b master feature/experimental
 ```
 
 ## Todo
-- [ ] Determine application input (json vs. cli args)
-  - [ ] Ad Path
-  - [ ] List of branches
-- [ ] Get list of branches
+- [x] Determine application input (json vs. cli args)
+  - [x] Ad Path
+  - [x] List of branches
+- [x] Get list of branches
 - [ ] For each branch:
   - [ ] switch branch if needed
   - [ ] if switched branches, reinstall
